@@ -1,0 +1,143 @@
+body{
+   background-color: hsl(0, 0%, 81%);
+   font-size: 13px;
+}
+
+
+img{
+  border-radius: 100%;
+  width: 25%;
+}
+
+
+.big-image{
+  width: 15%;
+}
+
+
+p{
+  opacity: 80%;
+}
+
+
+.name{
+  padding: 0 10px;
+  display: inline-block;
+}
+
+
+.grid-container{
+  background-color: hsl(0, 0%, 81%);
+  grid-gap: 20px;
+  display: grid;
+
+  background-color: hsl(0, 0%, 81%);
+  padding: 10%;
+}
+
+.grid-item{
+  padding:10px 20px;
+}
+
+
+
+.daniel{
+  background-color: hsl(263, 55%, 52%);
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  color: white;
+  text-align: left;
+
+
+}
+
+.jonathan{
+  background-color: hsl(217, 19%, 35%);
+  grid-column: 3;
+  grid-row: 1 ;
+  color: white;
+  text-align: left;
+}
+
+.kira{
+  background-color: hsl(0, 0%, 100%);
+  grid-column:4;
+  grid-row: 1/ span 2;
+  color: black;
+  text-align: left;
+  line-height: 1.5;
+}
+
+
+.jeanette{
+  background-color: hsl(0, 0%, 100%);
+  grid-column:1;
+  grid-row:2;
+  text-align: left;
+  color: black;
+}
+
+.patrick{
+  background-color: hsl(219, 29%, 14%);
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  text-align: left;
+  color: white;
+
+}
+
+@media  (max-width: 840px) {
+  .daniel{
+    background-color: hsl(263, 55%, 52%);
+    grid-column: 1;
+    grid-row: 1;
+    color: white;
+    text-align: left;
+
+
+  }
+
+  .jonathan{
+    background-color: hsl(217, 19%, 35%);
+    grid-column: 1;
+    grid-row: 2 ;
+    color: white;
+    text-align: left;
+  }
+
+  .kira{
+    background-color: hsl(0, 0%, 100%);
+    grid-column:1;
+    grid-row: 3;
+    color: black;
+    text-align: left;
+  }
+
+
+  .jeanette{
+    background-color: hsl(0, 0%, 100%);
+    grid-column:1;
+    grid-row:4;
+    text-align: left;
+    color: black;
+  }
+
+  .patrick{
+    background-color: hsl(219, 29%, 14%);
+    grid-column:1;
+    grid-row: 5;
+    text-align: left;
+    color: white;
+
+  }
+
+
+
+
+}
+
+
+.attribution{
+  text-align: center;
+  font-size: 20px;
+}
